@@ -406,6 +406,7 @@ color: #FFFFFF;
   height: 40px;
   background-color: #4D5AE5;
   border-radius: 50%;
+  justify-content: center;
 }
 .team-social-link:hover{
   background-color: #404BBF;
@@ -446,6 +447,9 @@ background-color: #31D0AA;
 }
 .footer-link:focus {
   background-color: #31D0AA;
+  }
+  .footer-item {
+    justify-content: center;
   }
 .footer-item+.footer-item {
   margin-left: 16px;

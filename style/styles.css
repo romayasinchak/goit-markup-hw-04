@@ -408,6 +408,7 @@ color: #FFFFFF;
   border-radius: 50%;
   align-items: center;
   display: flex;
+  padding: 8px;
   
 }
 .team-social-link:hover{

@@ -406,8 +406,8 @@ color: #FFFFFF;
   height: 40px;
   background-color: #4D5AE5;
   border-radius: 50%;
-  justify-content: center;
-  padding: 8px;
+  align-items: center;
+  
 }
 .team-social-link:hover{
   background-color: #404BBF;
@@ -451,7 +451,7 @@ background-color: #31D0AA;
   background-color: #31D0AA;
   }
   .footer-item {
-    justify-content: center;
+   align-items: center;
   }
 .footer-item+.footer-item {
   margin-left: 16px;

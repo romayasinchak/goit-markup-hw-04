@@ -135,8 +135,9 @@ body {
   background: var(--primary-text-color);
   text-align: center;
   padding: 188px 0;
-  height: 600px;
-  min-width: 1440px;
+  max-width: 1440px;
+  display: flex;
+  margin: auto;
 }
 
 .hero-icon {
@@ -147,7 +148,7 @@ body {
     url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .hero-list {
   list-style: none;
@@ -191,8 +192,12 @@ body {
   margin-bottom: 48px;
 }
 .section {
-  padding-top: 96px;
+padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.section-advantages {
+  padding-top: 120px;
 }
 
 .section-padding {
@@ -391,6 +396,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 16px;
 
   color: var(--white-text-color);
 }
@@ -406,6 +412,11 @@ a {
 
 .customers-link:hover {
   fill: #404bbf;
+  border: 1px solid #404BBF;
+}
+.customers-link:focus {
+  fill: #404bbf;
+  border: 1px solid #404BBF;
 }
 
 .team-social-link {
@@ -438,6 +449,7 @@ a {
 }
 .portfolio-adress {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  display: block;
 }
 .portfolio-adress:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -479,6 +491,7 @@ a {
   border-radius: 4px;
   margin-bottom: 8px;
 }
+
 .advantages-item + .advantages-item {
   margin-left: 24px;
 }

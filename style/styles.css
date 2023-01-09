@@ -140,14 +140,14 @@ body {
 }
 
 .hero-icon {
-  background-image:  linear-gradient(rgba(46,47,66,0.7),
-  rgba(46,47,66,0.7)
-  ),
-  url(../images/people-office\ 1.jpg) ;
-  background-repeat: no-repeat ;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
   background-position: center;
-background-size: contain;
-
+  background-size: contain;
 }
 .hero-list {
   list-style: none;
@@ -171,7 +171,8 @@ background-size: contain;
 }
 .hero-button:hover {
   background: var(--hover-focus-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border: transparent;
 }
 .hero-button:focus {
@@ -190,7 +191,8 @@ background-size: contain;
   margin-bottom: 48px;
 }
 .section {
-  padding-top: 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .section-padding {
@@ -271,7 +273,6 @@ img {
   height: auto;
 }
 
-
 .section-images {
   background: url(man-with-laptop-presenting-something.jpg);
   mix-blend-mode: normal;
@@ -307,7 +308,7 @@ img {
 
 .footer {
   background: var(--hero-background-color);
-  padding-top: 138px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 .footer-logo {
@@ -384,40 +385,46 @@ a {
   column-gap: 24px;
   row-gap: 48px;
   flex-basis: calc(100% / 3);
-  padding-bottom: 120px;
 }
 .social-title {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
-color: #FFFFFF;
+  color: var(--white-text-color);
 }
 .customers-link {
   width: 168px;
   height: 88px;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
+  padding: 16px 32px;
+  fill: #8e8f99;
 }
+
+.customers-link:hover {
+  fill: #404bbf;
+}
+
 .team-social-link {
   width: 40px;
   height: 40px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border-radius: 50%;
   align-items: center;
   display: flex;
   padding: 12px;
 }
-.team-social-link:hover{
-  background-color: #404BBF;
+.team-social-link:hover {
+  background-color: #404bbf;
 }
 .team-social-link:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
-.team-social-link+.team-social-link {
-margin-left: 24px;
+.team-social-link + .team-social-link {
+  margin-left: 24px;
 }
 
 .link-list {
@@ -433,7 +440,8 @@ margin-left: 24px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .portfolio-adress:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .footer-link {
@@ -446,36 +454,31 @@ margin-left: 24px;
   padding: 8px;
 }
 .footer-link:hover {
-background-color: #31D0AA;
+  background-color: #31d0aa;
 }
 .footer-link:focus {
-  background-color: #31D0AA;
-  }
-  .footer-item {
-   align-items: center;
-  }
-.footer-item+.footer-item {
+  background-color: #31d0aa;
+}
+.footer-item {
+  align-items: center;
+}
+.footer-item + .footer-item {
   margin-left: 16px;
 }
 .footer-social {
   margin-left: 120px;
 }
 
-
-
-.icon-advantages {
-
-}
 .advantages-item {
   display: flex;
   width: 264px;
   height: 112px;
   align-items: center;
   justify-content: center;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
 }
-.advantages-item+.advantages-item {
-margin-left: 24px;
+.advantages-item + .advantages-item {
+  margin-left: 24px;
 }

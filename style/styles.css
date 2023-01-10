@@ -401,11 +401,7 @@ a {
   fill: #8e8f99;
 }
 
-.customers-link:hover {
-  fill: #404bbf;
-  border: 1px solid #404BBF;
-}
-.customers-link:focus {
+.customers-link:hover,.customers-link:focus {
   fill: #404bbf;
   border: 1px solid #404BBF;
 }
@@ -418,13 +414,10 @@ a {
   display: flex;
   padding: 12px;
 }
-.team-social-link:hover {
+.team-social-link:hover,.team-social-link:focus {
   background-color: #404bbf;
-}
-.team-social-link:focus {
-  background-color: #404bbf;
-}
-.team-social-link + .team-social-link {
+} 
+.social-item + .social-item {
   margin-left: 24px;
 }
 
@@ -455,12 +448,10 @@ a {
   align-items: center;
   padding: 8px;
 }
-.footer-link:hover {
+.footer-link:hover,.footer-link:focus {
   background-color: #31d0aa;
 }
-.footer-link:focus {
-  background-color: #31d0aa;
-}
+
 .footer-item {
   align-items: center;
 }
